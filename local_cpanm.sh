@@ -1,4 +1,4 @@
-#!/bin/env perl
+#!/bin/bash
 
 # see: https://stackoverflow.com/questions/2980297/how-can-i-use-cpan-as-a-non-root-user
 wget -O- http://cpanmin.us | perl - -l ~/perl5 App::cpanminus local::lib
